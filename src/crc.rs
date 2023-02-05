@@ -1,4 +1,4 @@
-pub fn create_tailbits(data_bits: Vec<u8>, generator_polynomial: Vec<u8>) -> Vec<u8>
+pub fn calculate_tailbits(data_bits: Vec<u8>, generator_polynomial: Vec<u8>) -> Vec<u8>
 {
 
   if *generator_polynomial.first().unwrap() != 1
